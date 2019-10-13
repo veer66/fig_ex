@@ -2,9 +2,7 @@
 
 (enable-console-print!)
 
-(def span-el (-> js/document
+(def num-el (-> js/document
                 (.getElementById "num")))
 
-(set! (.-innerHTML span-el) "Yo")
-
-;; cider-jack-in-cljs / figwheel-main / :dev
+(set! (.-innerHTML num-el) "1082")
